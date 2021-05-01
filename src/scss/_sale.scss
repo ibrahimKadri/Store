@@ -1,0 +1,22 @@
+@import '/src/scss/variables';
+.sale {
+    background-color: $brand-secondary;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    &.large{
+            height: 60px;
+            width:60px;
+            border-radius: 50%;
+            left:-15px;
+            top:-15px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(-25deg);
+            font-size: 130%;
+            padding:35px;
+            line-height: 120%;
+            flex-direction: column;
+     }   
+}

@@ -1,0 +1,69 @@
+@import './variables';
+@import './slider';
+@import './custom-table';
+@import './sale';
+@import './custom.scss';
+.custom-form-control, .custom-btn{
+    border: 1px solid #EBEBEB;
+    box-shadow: none;
+    border-radius: 2px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    padding: 6px 6px 6px 6px;
+    color: #868686;
+}
+.custom-btn{
+    &:hover{
+        background-color: #d4d4d4 ;
+        border: 1px solid #BcBcBc;
+        color:$btn-primary-color-dark;
+    }
+   
+}
+
+.custom-btn-primary{
+&:hover,
+&:active,
+&:focus,
+&:active:focus,
+&:active:hover{
+    color:$btn-primary-color-dark;
+    border-color: $btn-primary-color-dark;
+    background-color:transparent;
+}
+    color: $brand-primary;
+    border-color: $brand-primary;
+    background-color:transparent;
+}
+
+.custom-btn-primary2{
+&:hover,
+&:active,
+&:focus,
+&:active:focus,
+&:active:hover{
+    background-color: $btn-primary-color-dark;
+    border-color: $btn-primary-color-dark;
+    color:#000;
+}
+    color:#000;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+}
+
+
+.custom-btn-danger{
+&:hover,
+&:active,
+&:focus,
+&:active:focus,
+&:active:hover{
+    color: $btn-danger-color-dark;
+    border-color: $btn-danger-color-dark;
+    background-color: transparent;
+}
+color:$brand-danger;
+    border-color: $brand-danger;
+    background-color: transparent;
+    border-radius: 3px;
+}

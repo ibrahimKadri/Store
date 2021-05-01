@@ -1,0 +1,25 @@
+@import './custom-table';
+.ui-slider {
+    margin: 25px 0 15px;
+    height: 2px !important;
+    .ui-slider-range{
+        border: 1px solid  $brand-primary !important;
+        top: -1px !important;
+    }
+    .ui-slider-handle {
+        background-color: $brand-primary !important;
+        border: none !important;
+        border-radius :50% !important;
+        height: 12px !important;
+        width: 12px !important;
+        top: -6px !important;
+    }
+}
+@media(max-width:991px){
+    .ui-slider .ui-slider-handle{
+        height: 20px !important;
+        width: 20px !important;
+        top:-10px  !important;
+    }
+}
+ 
